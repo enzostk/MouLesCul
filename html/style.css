@@ -1,20 +1,18 @@
 /***********************************************************  ALL ***************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
-
 .hautdepage {
   margin-left: 50px;
   margin-top: 50px;
 }
-
 .milieudepage {
   margin-left: 50px;
   margin-top: 50px;
 }
-
 hr {
   width:50%;
   display: block;
@@ -25,11 +23,9 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
-
 a {
   text-decoration: inherit;
 }
-
 body { 
   background-image: url("https://static.actu.fr/uploads/2021/10/adobestock-323365751.jpeg");
   background-color: #cccccc;
@@ -41,65 +37,86 @@ body {
   display: flex;
   flex-direction:column;
 }
-
 ul {
   list-style: none;
 }
 /*********************************************************** /ALL **************************************************************/
 
 /*********************************************************** FOOTER ************************************************************/
-.container1 {
-  max-width: 1170px;
-  margin:auto;
+.container1{
+	max-width: 1170px;
+	margin:auto;
 }
-
-
-.row {
-  display:flex;
-  flex-wrap:wrap;
+.row1{
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.headers {
-  font: bold 3em "Nanum Gothic";
-  text-decoration: underline overline #000000;
+.footer{
+	background-color: #eb6864;
+    padding: 70px 0;
 }
-
-
-.footer {
-  background-color: #eb6864;
-  padding: 70px 0;
-}
-
-
 .footer-col{
-  width: 25%;
-  padding: 0 15px;
+   width: 25%;
+   padding: 0 15px;
 }
-
 .footer-col h4{
-  font-size: 18px;
-  color:#ffffff;
-  text-transform: capitalize;
-  margin-bottom: 30px;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
 }
-
-footer {
-  flex-shrink:0;
-  width:100%;
-  background:#f1f1f1;
-  color:#333;
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
 /*********************************************************** /FOOTER ***************************************************************/
 /*********************************************************** NAVBAR ****************************************************************/
 .navbar {
   background-color: #eb6864;
 }
-
 .cobutton {
   margin-left:1350px;
   color: #ffffff;
 }
-
 .navbar1 {
   color: #000000;
   background-color: transparent;
@@ -119,14 +136,11 @@ footer {
   padding: 10px 80px;
   text-decoration: none;
 }
-
 .baner_button:hover {
   background-color: #eb6864;
   color:#fff;
   transition-duration:200ms;
 }
-
-
 .card_button {
   color: rgb(0, 0, 0);
   font-family: "proxima nova";
@@ -138,13 +152,11 @@ footer {
   padding: 5px 80px;
   text-decoration: none;
 }
-
 .card_button:hover {
   background-color: #eb6864;
   color:#fff;
   transition-duration:200ms;
 }
-
 .button_primary {
   color: rgb(0, 0, 0);
   font-family: "proxima nova";
@@ -156,13 +168,11 @@ footer {
   padding: 10px 80px;
   text-decoration: none;
 }
-
 .button_primary:hover {
   background-color: #eb6864;
   color:#fff;
   transition-duration:200ms;
 }
-
 .button_secondary {
   color: rgb(0, 0, 0);
   font-family: "proxima nova";
@@ -174,13 +184,11 @@ footer {
   padding: 10px 80px;
   text-decoration: none;
 }
-
 .button_secondary:hover {
   background-color: #aaaaaa;
   color:#fff;
   transition-duration:200ms;
 }
-
 .button_third {
   color: rgb(2, 2, 2);
   font-family: "proxima nova";
@@ -192,13 +200,11 @@ footer {
   padding: 10px 80px;
   text-decoration: none;
 }
-
 .button_third:hover {
   background-color: #22b24c;
   color:#fff;
   transition-duration:200ms;
 }
-
 .button_fourth {
   color: rgb(2, 2, 2);
   font-family: "proxima nova";
@@ -210,13 +216,11 @@ footer {
   padding: 10px 80px;
   text-decoration: none;
 }
-
 .button_fourth:hover {
   background-color: #336699;
   color:#fff;
   transition-duration:200ms;
 }
-
 .button_five {
   color: rgb(2, 2, 2);
   font-family: "proxima nova";
@@ -228,7 +232,6 @@ footer {
   padding: 10px 80px;
   text-decoration: none;
 }
-
 .button_five:hover {
   background-color: #f5e625;
   color:#fff;
@@ -244,13 +247,11 @@ footer {
   box-sizing: border-box;
   resize: vertical;
 }
-
 /* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-
 /* Style the submit button */
 input[type=submit] {
   background-color: #eb6864;
@@ -261,28 +262,24 @@ input[type=submit] {
   cursor: pointer;
   float: center;
 }
-
 /* Style the container */
 .form {
   border-radius: 5px;
   background-color: transparent;
   padding: 50px;
 }
-
 /* Floating column for labels: 25% width */
 .col-25 {
   float: left;
   width: 25%;
   margin-top: 6px;
 }
-
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -292,30 +289,23 @@ input[type=submit] {
 /**********************************************************************************************************************************************/
 
 /******************************************************** CARDS *******************************************************************************/
-
 .card {
   overflow:hidden;
 }
-
 .cardrow {
   display:flex;
   place-items: center;
   justify-content: center;
 }
-
 .card-home {
   display:flex;
   border-radius:12px;
   transition:0.15s ease-in-out;
 }
-
 .card-home:hover {
   box-shadow: 19px 19px 32px 9px rgba(0,0,0,0.44);
   transform: translateY(-10px) scale(1.1)
 }
-
-
-
 /**********************************************************************************************************************************************/
 
 /******************************************************** BANNIERES *******************************************************************************/
@@ -327,8 +317,6 @@ input[type=submit] {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-
-
 .jumbotron2 { 
   background-image: url("img/banniere2.svg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -337,39 +325,30 @@ input[type=submit] {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-
 /**********************************************************************************************************************************************/
 
 /******************************************************** COMMENTAIRE *******************************************************************************/
-
 .date {
   font-size: 11px
 }
-
 .comment-text {
   font-size: 12px
 }
-
 .fs-12 {
   font-size: 12px
 }
-
 .shadow-none {
   box-shadow: none
 }
-
 .name {
   color: #007bff
 }
-
 .cursor:hover {
   color: blue
 }
-
 .cursor {
   cursor: pointer
 }
-
 .textarea {
   resize: none
 }
