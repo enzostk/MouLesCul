@@ -1,0 +1,376 @@
+/***********************************************************  ALL ***************************************************************/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.hautdepage {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.milieudepage {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+hr {
+  width:50%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+body { 
+  background-image: url("https://static.actu.fr/uploads/2021/10/adobestock-323365751.jpeg");
+  background-color: #cccccc;
+  height: 100%; 
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  flex-direction:column;
+}
+
+ul {
+  list-style: none;
+}
+/*********************************************************** /ALL **************************************************************/
+
+/*********************************************************** FOOTER ************************************************************/
+.container1 {
+  max-width: 1170px;
+  margin:auto;
+}
+
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.headers {
+  font: bold 3em "Nanum Gothic";
+  text-decoration: underline overline #000000;
+}
+
+
+.footer {
+  background-color: #eb6864;
+  padding: 70px 0;
+}
+
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color:#ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+footer {
+  flex-shrink:0;
+  width:100%;
+  background:#f1f1f1;
+  color:#333;
+}
+/*********************************************************** /FOOTER ***************************************************************/
+/*********************************************************** NAVBAR ****************************************************************/
+.navbar {
+  background-color: #eb6864;
+}
+
+.cobutton {
+  margin-left:1350px;
+  color: #ffffff;
+}
+
+.navbar1 {
+  color: #000000;
+  background-color: transparent;
+}
+/**********************************************************************************************************************************************/
+
+/************************************************************ BUTTON ************************************************************/
+
+.baner_button {
+  color: rgb(0, 0, 0);
+  font-family: "proxima nova";
+  font-weight: 50;
+  font-size:25px;
+  text-align:center;
+  border: solid 2px #eb6864;
+  border-radius:50px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.baner_button:hover {
+  background-color: #eb6864;
+  color:#fff;
+  transition-duration:200ms;
+}
+
+
+.card_button {
+  color: rgb(0, 0, 0);
+  font-family: "proxima nova";
+  font-weight:10;
+  font-size:11px;
+  text-align:center;
+  border: solid 2px #eb6864;
+  border-radius:50px;
+  padding: 5px 80px;
+  text-decoration: none;
+}
+
+.card_button:hover {
+  background-color: #eb6864;
+  color:#fff;
+  transition-duration:200ms;
+}
+
+.button_primary {
+  color: rgb(0, 0, 0);
+  font-family: "proxima nova";
+  font-weight: 50;
+  font-size:25px;
+  text-align:center;
+  border: solid 2px #eb6864;
+  border-radius:50px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.button_primary:hover {
+  background-color: #eb6864;
+  color:#fff;
+  transition-duration:200ms;
+}
+
+.button_secondary {
+  color: rgb(0, 0, 0);
+  font-family: "proxima nova";
+  font-weight: 50;
+  font-size:25px;
+  text-align:center;
+  border: solid 2px #aaaaaa;
+  border-radius:50px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.button_secondary:hover {
+  background-color: #aaaaaa;
+  color:#fff;
+  transition-duration:200ms;
+}
+
+.button_third {
+  color: rgb(2, 2, 2);
+  font-family: "proxima nova";
+  font-weight: 50;
+  font-size:25px;
+  text-align:center;
+  border: solid 2px #22b24c;
+  border-radius:50px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.button_third:hover {
+  background-color: #22b24c;
+  color:#fff;
+  transition-duration:200ms;
+}
+
+.button_fourth {
+  color: rgb(2, 2, 2);
+  font-family: "proxima nova";
+  font-weight: 50;
+  font-size:25px;
+  text-align:center;
+  border: solid 2px #336699;
+  border-radius:50px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.button_fourth:hover {
+  background-color: #336699;
+  color:#fff;
+  transition-duration:200ms;
+}
+
+.button_five {
+  color: rgb(2, 2, 2);
+  font-family: "proxima nova";
+  font-weight: 50;
+  font-size:25px;
+  text-align:center;
+  border: solid 2px #f5e625;
+  border-radius:50px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.button_five:hover {
+  background-color: #f5e625;
+  color:#fff;
+  transition-duration:200ms;
+}
+/************************************************************ FORM ************************************************************/
+ /* Style inputs, select elements and textareas */
+ input[type=text], select, textarea{
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #eb6864;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+/* Style the container */
+.form {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 50px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/**********************************************************************************************************************************************/
+
+/******************************************************** CARDS *******************************************************************************/
+
+.card {
+  overflow:hidden;
+}
+
+.cardrow {
+  display:flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.card-home {
+  display:flex;
+  border-radius:12px;
+  transition:0.15s ease-in-out;
+}
+
+.card-home:hover {
+  box-shadow: 19px 19px 32px 9px rgba(0,0,0,0.44);
+  transform: translateY(-10px) scale(1.1)
+}
+
+
+
+/**********************************************************************************************************************************************/
+
+/******************************************************** BANNIERES *******************************************************************************/
+.jumbotron1 { 
+  background-image: url("img/banniere1.svg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.jumbotron2 { 
+  background-image: url("img/banniere2.svg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/**********************************************************************************************************************************************/
+
+/******************************************************** COMMENTAIRE *******************************************************************************/
+
+.date {
+  font-size: 11px
+}
+
+.comment-text {
+  font-size: 12px
+}
+
+.fs-12 {
+  font-size: 12px
+}
+
+.shadow-none {
+  box-shadow: none
+}
+
+.name {
+  color: #007bff
+}
+
+.cursor:hover {
+  color: blue
+}
+
+.cursor {
+  cursor: pointer
+}
+
+.textarea {
+  resize: none
+}
+/**********************************************************************************************************************************************/
